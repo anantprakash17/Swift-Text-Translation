@@ -1,9 +1,7 @@
 //
 //  ViewController.swift
-//  Comp Sci Culminating
+//  Swift Text Translation
 //
-//  Created by Teach
-//  Copyright © 2019Teach. All rights reserved.
 //
 
 import UIKit
