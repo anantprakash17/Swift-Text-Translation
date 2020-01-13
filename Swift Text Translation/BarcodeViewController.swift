@@ -1,9 +1,8 @@
 //
 //  BarcodeViewController.swift
-//  Comp Sci Culminating
+//  Barcode Scanner Class
 //
 //  Created by Anant Prakash on 2019-06-12.
-//  Copyright © 2019 Anant. All rights reserved.
 //
 
 import UIKit
@@ -90,7 +89,7 @@ class BarcodeViewController: UIViewController , UIImagePickerControllerDelegate 
     ///
     /// - Parameter barcode: this is the barcode number sent into the fuction to look for the item.
     func parseItemName (barcode: String) {
-        let url = "https://api.barcodelookup.com/v2/products?barcode=\(barcode)&formatted=y&key=fmi5fgadba0zp9c5zpmw43knaseabe"
+        let url = "https://api.barcodelookup.com/v2/products?barcode=\(barcode)&formatted=y&key=" //Removed key as it was my own.
         let urlToFetch = URL(string: url)
         URLSession.shared.dataTask(with: urlToFetch!) { (data, response , error) in
             do {
