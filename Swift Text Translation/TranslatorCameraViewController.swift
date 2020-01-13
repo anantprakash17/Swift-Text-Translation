@@ -1,9 +1,8 @@
 
 //  TranslatorCameraViewController.swift
-//  Comp Sci Culminating
+//  Swift Text Translation
 //
 //  Created by Anant Prakash on 2019-06-09.
-//  Copyright © 2019 Anant. All rights reserved.
 //
 
 import UIKit
